@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+.containerTop{
+    padding-bottom: 50px;
+}
+
+.heading{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+.hr{
+    background-color: #1159df;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #2e86c1;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card .button{
+    background-color: #fff;
+    outline: none;   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    color: #000;
+}
+
+.card .button:hover{
+    background-color: #2e86c1;
+    color: #ffff;
+}
+
+.box{
+    margin-top: 10px;
+    width: 740px;
+    border-radius: 20px;
+}
+
+.box img{
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	height:260px; 
+	width:260px;
+}
+
+.card a{
+    
+    padding-right:20px; 
+    padding-left: 20px; 
+}
+
+span{
+    margin-left: 60px;
+}
+
+.add{
+    margin-top: 10%;
+}
+
+.add a{
+    border-radius: 20px;
+    background-color: #2e86c1;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.add a:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.addv a{
+    border-radius: 20px;
+    background-color: #2e86c1;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.addv a:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+.addv .report{
+    border-radius: 20px;
+    width: 80%;
+    height: 40%;
+    font-size: 20px;
+    background-color: #26b85e;
+    color: rgba(255, 255, 255, 0.801);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);    
+}
+
+.shadowBox{
+    margin-top: 40px;
+    padding:30px;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);    
+}
+
+.top{
+    margin-bottom: 50px;
+}
+
+.btndriver{
+    margin-top: 20px;
+}
+
+.btndriver button{    
+    width: 300px;
+}
+
+.btndriver a{
+    width: 300px;
+}
+
+.form-group .inputform{
+    margin-top: 15px;
+}
+
+
+.link a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+
+.link p{
+    color: rgb(43, 42, 42);
+}
+
+.search {
+    margin-top: 10px;   
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.search input {
+    height: 45px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-indent: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 15px;
+    left: 25px
+}
+
+
+/***************************************     
+        Orderstatus view        
+        
+***************************************/
+
+:root {
+    --primary-color: #00c462;
+    --primary-color-lighter: rgb(255, 36, 36);
+    --primary-color-darker: darkred;
+    --back-ground-color: #ffffff;
+    --secondar-back-ground-color: #f5f5f5;
+    --dark-color: #000000;
+    --grey-color: #ccc;
+    --light-color: #ffffff;
+}
+/*#c40000*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+#myProgress {
+  	position: relative;
+}
+
+#myProgress::Before {
+    content: "";
+    position: absolute;
+    background-color: var(--secondar-back-ground-color);
+    height: 10px;
+    width: 100%;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+#myBar {
+  	width: 1%;
+  	height: 10px;
+  	top: 40%;
+  	position: absolute;
+  	background-color: var(--primary-color);
+}
+
+
+
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 700px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    background-color: var(--light-color);
+    transition: 0.4s ease;
+}
+
+.circle h3 {
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    font-size: 20px;
+    color: var(--grey-color);
+}
+
+.circle.active {
+    background-color: var(--primary-color);
+}
+
+.circle.active h3 {
+    color: var(--light-color);
+}
+
+.circle.active i {
+    margin-top: 30%;
+    color: var(--light-color);
+}
+
+.para-container {
+    display: flex;    
+    max-width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.content{
+	
+	margin-right: -10px;
+}
+
+.small-box{
+    padding-left: 260px;
+    padding-right: 260px;
+    text-align: center;
+}
+
+.data{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
